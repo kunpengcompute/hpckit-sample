@@ -1,0 +1,19 @@
+通过KUPL parallel for实现parallel语义，且在并行域内调用多线程barrier demo
+
+编译命令: make
+
+运行命令: make run
+
+清理命令: make clean
+
+基本概念
+    KUPL 的 parallel for 并行接口是实现多线程编程的一种方法，
+    实现类 OMP parallel for 导语能力，多线并行加速 for 循环操作，并提供静态和动态两种策略。
+    KUPL 的 parallel for 接口也能够用于实现parallel语义。
+    KUPL 的 egroup barrier 接口能够实现并行域间的同步。
+    此处提供通过 parallel for 接口开启并行域，并在并行域内通过 egroup barrier 进行同步的示例。
+
+推荐场景
+    符合以下特性的问题均可参考上述示例
+    1、需要开启 parallel 并行域
+    2、需要实现并行域间的 barrier 同步
