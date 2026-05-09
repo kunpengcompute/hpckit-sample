@@ -6,7 +6,7 @@
 
 一级目录分为组件目录和综合用例目录，每个组件目录下有多个小目录，每个小目录中有对应的用例（源码文件，makefile 文件，readme说明）
 
-comprehensive-example：综合用例
+examples：综合用例
 
 kupl: 鲲鹏统一并行加速库相关用例
 
