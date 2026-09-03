@@ -59,7 +59,7 @@ mt: 众核并行
     parallel_for_1d_lambda 匿名函数版本并行 1d for 循环
 
     parallel_for_3d 并行 3d for 循环
-    
+
     queue_event_dependency 多队列事件编程
 
     queue_submit 多队列并行编程
@@ -69,19 +69,22 @@ mt: 众核并行
 1.  安装最新的 HPCKit
 
     下载地址：https://www.hikunpeng.com/developer/hpc/hpckit-download
-    
+
     安装指南：https://www.hikunpeng.com/document/detail/zh/kunpenghpcs/hpckit/instg/topic_0000001806090516.html
-    
+
     开发指南：https://www.hikunpeng.com/document/detail/zh/kunpenghpcs/hpckit/devg/KunpengHPCKit_developer_010.html
 
 2.  下载本文件
 3.  到目标小目录下
 
-    (1) 一键式全量编译安装：
+    - 一键式全量编译安装：
 
-        在根目录下执行 `sh build.sh`
+        在根目录下执行
+        ```
+        sh build.sh
+        ```
 
-    (2) 按需编译安装：
+    - 按需编译安装：
 
         参考 sample 代码顶部的注释说明进行编译和执行，或参照具体的 sample 目录的 readme 进行编译和运行
 
