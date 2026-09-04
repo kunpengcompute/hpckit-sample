@@ -15,19 +15,22 @@ kupl: 鲲鹏统一并行加速库相关用例
 1.  安装最新的 HPCKit
 
     下载地址：https://www.hikunpeng.com/developer/hpc/hpckit-download
-    
+
     安装指南：https://www.hikunpeng.com/document/detail/zh/kunpenghpcs/hpckit/instg/topic_0000001806090516.html
-    
+
     开发指南：https://www.hikunpeng.com/document/detail/zh/kunpenghpcs/hpckit/devg/KunpengHPCKit_developer_003.html
 
 2.  下载本文件
 3.  用例编译
 
-    (1) 一键式全量编译安装：
+    - 一键式全量编译安装：
 
-        在根目录下执行 `sh build.sh`
+        在根目录下执行
+        ```
+        sh build.sh
+        ```
 
-    (2) 按需编译安装：
+    - 按需编译安装：
 
         进入到具体用例所在目录下根据 readme 的说明 进行编译和运行
 
